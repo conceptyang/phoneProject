@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fafbfe;
+  color: #a1a1a2;
+}
+footer .fa {
+  font-size: 3rem;
+}
+footer .paging {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+footer p {
+  color: #000;
+  font-size: 3.2rem;
+  padding-top: 8px;
+}
