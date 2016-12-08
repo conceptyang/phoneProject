@@ -1,0 +1,103 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tbody,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+.clearfix:after {
+  content: '';
+  width: 100%;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+html {
+  font-size: 62.5%;
+}
+.cheng {
+  color: #F39826;
+}
+.qing {
+  color: #36BC99;
+}
+.lan {
+  color: #10A6E2;
+}
+.zi {
+  color: #A767C6;
+}
+.hong {
+  color: #F15A4A;
+}
+.hui {
+  color: #B5B5B5;
+}
+.hcolor {
+  color: #36BE66;
+}
+.fcolor {
+  color: #6ABD78;
+}
+.qcheng {
+  color: #F9CB92;
+}
+.qlan {
+  color: #87D2F0;
+}
+.qhong {
+  color: #F8ACA4;
+}
+.qqing {
+  color: #9ADDCC;
+}
+.qzi {
+  color: #D3B2E2;
+}
+.fff {
+  color: #fff;
+}
