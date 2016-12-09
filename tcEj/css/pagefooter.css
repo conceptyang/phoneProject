@@ -1,12 +1,9 @@
 footer {
   display: flex;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
   background-color: #fafbfe;
   color: #a1a1a2;
+  height:3.5rem;
 }
 footer .fa {
   font-size: 3rem;
@@ -19,6 +16,6 @@ footer .paging {
 }
 footer p {
   color: #000;
-  font-size: 3.2rem;
+  font-size: 1.2rem;
   padding-top: 8px;
 }
