@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Discover</title>
+    <link rel="stylesheet" type="text/css" href="css/pagefooter.css">
+    <link rel="stylesheet" type="text/css" href="font/demo.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/discover.css">
+
+</head>
+<body>
+    <div id="discover">
+        <header>
+            <span class="fff">发现</span>
+        </header>
+        <section>
+            <div class="dis-con-tit">
+                <div class="dctl br">
+                    <span>E栈生活</span>
+                </div>
+                <div class="dctl">
+                    <span>优惠活动</span>
+                </div>
+            </div>
+            <div class="dis-con-con">
+                <div class="con-main">
+                    <div class="main-top">
+                        <img src="img/xingbake.png" alt="星巴克">
+                    </div>
+                    <p class="main-title">[课程] 纯粹咖啡招募 : 15位“迷咖”限量款待</p>
+                    <div class="main-mes">
+                        <div class="mes-l">
+                            <i class="fa icon iconfont icon-yan"></i>59<i class="fa faicon iconfont icon-huihua"></i>0
+                        </div>
+                        <div class="fa mes-l mes-r">
+                            08-18
+                        </div>
+                    </div>
+                </div>
+                <div class="con-main">
+                    <div class="main-top">
+                        <img src="img/xingbake.png" alt="星巴克">
+                    </div>
+                    <p class="main-title">[课程] 纯粹咖啡招募 : 15位“迷咖”限量款待</p>
+                    <div class="main-mes">
+                        <div class="mes-l">
+                            <i class="fa icon iconfont icon-yan"></i>59<i class="fa faicon iconfont icon-huihua"></i>0
+                        </div>
+                        <div class="fa mes-l mes-r">
+                            08-18
+                        </div>
+                    </div>
+                </div>
+                <div class="con-main">
+                    <div class="main-top">
+                        <img src="img/xingbake.png" alt="星巴克">
+                    </div>
+                    <p class="main-title">[课程] 纯粹咖啡招募 : 15位“迷咖”限量款待</p>
+                    <div class="main-mes">
+                        <div class="mes-l">
+                            <i class="fa icon iconfont icon-yan"></i>59<i class="fa faicon iconfont icon-huihua"></i>0
+                        </div>
+                        <div class="fa mes-l mes-r">
+                            08-18
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer id="footer">
+
+        </footer>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/discover.js"></script>
+    <script type="text/javascript">
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+             recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                 docEl.style.fontSize = '20px';
+                }else{
+                    docEl.style.fontSize = 20 * (clientWidth / 640) + 'px';
+                }
+            };
+            if (!doc.addEventListener) return; win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+    </script>
+</body>
+</html>

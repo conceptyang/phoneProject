@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/registeryl.css">
+    <link rel="stylesheet" type="text/css" href="font/demo.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+
+</head>
+<body>
+<div id="register">
+    <header id="header">
+        <span class="zc-t-l fa icon iconfont icon-jiankuohaoxizuo"></span><span class="zc-t-m">注册</span>
+        <span class="zc-t-r"><b class="qing" id="send">继续</b></span>
+    </header><!-- /header -->
+    <section>
+        <form action="registeryl_submit" method="get" accept-charset="utf-8">
+            <p>
+                <i class="fa icon iconfont icon-shouji"></i>
+                <span class="join"><input id="phone" type="tel" placeholder="输入手机号(登录账号)"/> </span><span class="tip">手机号是11位纯数字！</span>
+            </p>
+            <p>
+                <i class="fa icon iconfont icon-shangchengxitongtubiaozitihuayuanwenjian41"></i>
+                <span class="join"><input id="pwd" type="password" placeholder="设置密码" />
+                </span>
+            </p>
+            <p>
+                <i class="fa icon iconfont icon-queren"></i>
+                <span class="join"><input id="pwd1" type="password"  placeholder="确认密码"/>
+                </span><span class="tip">密码不一致请重新输入！</span>
+            </p>
+            <p>
+                <i class="fa icon iconfont icon-youjian"></i>
+                <span class="join"><input id="email" type="email" placeholder="输入邮箱(用于找回密码)" />
+                </span><span class="tip">邮箱格式不正确,请重新输入！</span>
+            </p>
+
+        </form>
+
+    </section>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/registeryl.js"></script>
+</body>
+</html>
