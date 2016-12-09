@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>deng</title>
+    <link rel="stylesheet" href="css/deng.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font/demo.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h3 class="fff">登录</h3>
+        <h6 class="fff">注册</h6>
+    </header>
+    <section class="section">
+    <div class="main">
+        <div class="btn bor">
+            <label>手机号</label>
+            <input type="text" name="phone" value="">
+        </div>
+        <div class="btn">
+            <label>密码&nbsp;&nbsp;&nbsp;</label>
+            <input type="password" name="phone" value="">
+            <i class="icon iconfont hui">&#xe601;</i>
+            <input class="forget" type="button" name="" value="忘记密码？">
+        </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <input class="fff" type="button" name="" value="立即登录">
+    </footer>
+</body>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+         recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if(clientWidth>=640){
+             docEl.style.fontSize = '20px';
+            }else{
+                docEl.style.fontSize = 20 * (clientWidth / 640) + 'px';
+            }
+        };
+        if (!doc.addEventListener) return; win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>
