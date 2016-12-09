@@ -2,10 +2,12 @@ body,
 html {
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 #all {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 header {
   width: 100%;
@@ -29,6 +31,8 @@ section {
   flex: 1;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .banner img {
   display: block;
@@ -36,17 +40,16 @@ section {
   width: 100%;
 }
 .content {
-  flex: 9;
   display: flex;
   flex-wrap: wrap;
 }
 .content .icon {
   width: 25%;
-  height: 10rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .content .icon a.img {
   display: block;
@@ -57,4 +60,15 @@ section {
   width: 100%;
   text-align: center;
   margin-top: 1rem;
+}
+footer {
+  border-top: 1px #ccc solid;
+  box-sizing: border-box;
+  height: 5.5rem;
+}
+footer .paging {
+  padding: 0;
+}
+footer .paging p {
+  padding-top: 0;
 }
