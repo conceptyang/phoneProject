@@ -8,7 +8,7 @@ html {
 }
 .header {
   width: 100%;
-  flex: 1;
+  height: 4rem;
   background: #36BE66;
 }
 .header h3 {
