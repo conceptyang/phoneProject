@@ -11,6 +11,7 @@ html {
   background-size: cover;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 #header .main {
   width: 70%;
@@ -46,6 +47,7 @@ html {
 }
 #section {
   padding-top: 12rem;
+  padding-bottom: 5rem;
 }
 #section .top {
   padding-bottom: 1rem;
@@ -74,16 +76,25 @@ html {
 }
 #section .btn li span {
   position: relative;
+  display: block;
+  width: 100%;
 }
 #section .btn li span p {
   position: absolute;
-  left: 1rem;
-  top: -7.6rem;
+  left: 0;
+  top: 2%;
+  width: 100%;
 }
 #section .btn li span img {
   width: 100%;
 }
+#section .swiper-container img {
+  width: 100%;
+  height: 15rem;
+}
 #footer {
+  height: 7rem;
   position: fixed;
   bottom: 0px;
+  z-index: 10;
 }
