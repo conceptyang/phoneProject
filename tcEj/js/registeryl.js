@@ -31,10 +31,10 @@ $(function(){
 $('#send').click(function(event) {
    var user = $("#phone").val();
    var pwd = $("#pwd").val();
-   sessionStorage.setItem("user",user);
-   sessionStorage.setItem("pwd",pwd);
-});
+   localStorage.setItem("user",user);
+   localStorage.setItem("pwd",pwd);
 
+});
 
 
 //     sessionStorage.getItem(key):获取指定key本地存储的值
