@@ -1,17 +1,23 @@
 
 @font-face {font-family: "iconfont";
 <<<<<<< HEAD
+<<<<<<< HEAD
   src: url('iconfont.eot?t=1481271181567'); /* IE9*/
   src: url('iconfont.eot?t=1481271181567#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('iconfont.woff?t=1481271181567') format('woff'), /* chrome, firefox */
   url('iconfont.ttf?t=1481271181567') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('iconfont.svg?t=1481271181567#iconfont') format('svg'); /* iOS 4.1- */
 =======
+=======
+>>>>>>> be50092ed5211e7d92ff7a0c6ea9a44124029de3
   src: url('iconfont.eot?t=1481269700023'); /* IE9*/
   src: url('iconfont.eot?t=1481269700023#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('iconfont.woff?t=1481269700023') format('woff'), /* chrome, firefox */
   url('iconfont.ttf?t=1481269700023') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('iconfont.svg?t=1481269700023#iconfont') format('svg'); /* iOS 4.1- */
+<<<<<<< HEAD
+>>>>>>> be50092ed5211e7d92ff7a0c6ea9a44124029de3
+=======
 >>>>>>> be50092ed5211e7d92ff7a0c6ea9a44124029de3
 }
 
@@ -31,11 +37,15 @@
 .icon-shouji:before { content: "\e625"; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .icon-shangchengxitongtubiaozitihuayuanwenjian41:before { content: "\e719"; }
 
 .icon-ordinaryjiantou2zou:before { content: "\e627"; }
 
 .icon-youjian:before { content: "\e705"; }
+=======
+.icon-ordinaryjiantou2zou:before { content: "\e627"; }
+>>>>>>> be50092ed5211e7d92ff7a0c6ea9a44124029de3
 =======
 .icon-ordinaryjiantou2zou:before { content: "\e627"; }
 >>>>>>> be50092ed5211e7d92ff7a0c6ea9a44124029de3
