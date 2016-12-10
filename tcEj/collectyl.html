@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Collect</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="font/demo.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/collectyl.css">
+    <link rel="stylesheet" type="text/css" href="css/pagefooter.css">
+</head>
+<body>
+<div id="Collect">
+    <header id="header">
+        <a href="adminsll.html" class="fff"><span class="zc-t-l fa icon iconfont icon-jiankuohaoxizuo"></span></a><span class="zc-t-m">收藏夹</span>
+    </header>
+    <section class="nothing">
+        收藏夹空空如也 ~ 快去逛逛 ~
+    </section>
+    <section class="something">
+        <div id="collect-cont">
+
+        </div>
+
+    </section>
+    <footer id="footer">
+
+    </footer>
+</div>
+<script type="text/html">
+    {{each list as value i}}
+    <div class="cont-col ">
+            <div class="cont-top">
+                <img src="{{value.src}}" alt="">
+                <div class="introduce">
+                      <p class="title">{{value.title}}</p>
+                      <p class="standard"><span class="qing">介绍 :</span> {{value.content}}</p>
+                </div>
+
+            </div>
+            <div class="cont-bot"><span>[删除]&nbsp;&nbsp;</span>
+            </div>
+    </div>
+    {{/each}}
+</script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/collectyl.js"></script>
+<script src="js/template.js"></script>
+</body>
+</html>

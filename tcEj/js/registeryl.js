@@ -18,23 +18,25 @@ $(function(){
         var miVal1 = $("#pwd").val();
         if(miVal){
             if(miVal==miVal1){
+                console.log(2)
                 $(this).parent().siblings(".tip").css("display","none")
-
+                $('#send').click(function(event) {
+                   var user = $("#phone").val();
+                   var pwd = $("#pwd").val();
+                   localStorage.setItem("user",user);
+                   localStorage.setItem("pwd",pwd);
+                   window.location = "deng.html";
+                    });
             }else{
                 $(this).parent().siblings('.tip').css('display', 'inline-block');
+                return false
             }
         }else{
             $(this).parent().siblings(".tip").css('display', 'none');
         }
     })
 
-$('#send').click(function(event) {
-   var user = $("#phone").val();
-   var pwd = $("#pwd").val();
-   localStorage.setItem("user",user);
-   localStorage.setItem("pwd",pwd);
 
-});
 
 
 //     sessionStorage.getItem(key):获取指定key本地存储的值
