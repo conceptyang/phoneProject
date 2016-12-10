@@ -2,9 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>job</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="font/demo.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/joblist.css">
+
+
 </head>
 <body>
+    <div class="job">
+        <header id="header" class="part">
+           <i class="icon iconfont fff">&#xe602;</i> <span class="Jtitle">找兼职</span>
+        </header>
+        <!-- /header -->
+        <content class="mid">
+            <ul class="tablist">
+                <script type="text/html" id="tab">
+                    {{each list as value}}
+                    <li>{{value.target}}</li>
+                    {{/each}}
+                </script>
 
+            </ul>
+            <div class="tabox">
+                <script type="text/html" id="datil">
+
+                    <ul class="jobdatail">
+                        {{each list1 as value}}
+                        <li dataid = "{{value.id}}">
+                            <img src="{{value.src}}" alt="{{value.title}}">
+                            <dl>
+                                 <dt>{{value.title}}</dt>
+                                <dd class="short">{{value.content}} </dd>
+                                <dd class="inf">
+                                <span><i class="icon iconfont fon">&#xe66e;</i>{{value.collnum}}</span>
+                                <span><i class="icon iconfont fon1">&#xe67f;</i>{{value.num}}</span>
+                                <span class="time">{{value.time}}</span></dd>
+                            </dl>
+                        </li>
+                        {{/each}}
+                    </ul>
+
+                </script>
+            </div>
+
+        </content>
+    </div>
+    <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+     <script type="text/javascript" src='js/template.js'></script>
+    <script type="text/javascript">
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+             recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                 docEl.style.fontSize = '24px';
+                }else{
+                    docEl.style.fontSize = 24 * (clientWidth / 640) + 'px';
+                }
+            };
+            if (!doc.addEventListener) return;
+             win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <script type="text/javascript" src ="js/joblist.js"></script>
 </body>
 </html>
