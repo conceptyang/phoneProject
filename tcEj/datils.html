@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>datils</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="font/demo.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/datils.css">
+</head>
+<body>
+    <div class="datils">
+        <script type="text/html" id="add">
+                <header id="header" class="header">
+                  <i class="icon iconfont return ">&#xe6ca;</i>
+                  <span>{{obj.title}}</span>
+                </header>
+                <content class="mid">
+                    <p class="title">{{obj.title}}</p>
+                    <p class="time">{{obj.time}}</p>
+                    <div class="instruction">
+                        {{obj.instruction}}
+                    </div>
+                    <img src="{{obj.src}}" alt="">
+                    <div class="con">
+                        {{obj.content}}
+                    </div>
+                    <img src="{{obj.pic}}" alt="">
+                    <div class="ps">
+                          {{obj.ps}}
+                    </div>
+                </content>
+                <footer class="foot">
+                   <i class="icon iconfont collection">&#xe619;</i>
+                   <i class="icon iconfont ">&#xe66e;</i>
+                   <i class="icon iconfont ">&#xe61a;</i>
+                   <i class="icon iconfont ">&#xe630;</i>
+                </footer>
+        </script>
+
+    </div>
+     <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+     <script type="text/javascript" src='js/template.js'></script>
+    <script type="text/javascript">
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+             recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                 docEl.style.fontSize = '24px';
+                }else{
+                    docEl.style.fontSize = 24 * (clientWidth / 640) + 'px';
+                }
+            };
+            if (!doc.addEventListener) return;
+             win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <script type="text/javascript" src ="js/datils.js"></script
+</body>
+</html>

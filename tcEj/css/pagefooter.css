@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
   display: flex;
   width: 100%;
@@ -20,3 +21,6 @@ footer p {
   font-size: 1rem;
 
 }
+=======
+footer{display:flex;width:100%;z-index:10;background-color:#fafbfe;color:#a1a1a2}footer .fa{font-size:1.8rem}footer .paging{flex:1;height:100%;text-align:center}footer p{color:#000;font-size:.8rem}
+>>>>>>> 4e832e1c9da5d3fe76ddeedc8a426176c92381c0

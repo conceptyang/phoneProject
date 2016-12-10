@@ -1,0 +1,100 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.job {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.job #header {
+  width: 100%;
+  height: 4rem;
+  background: #36be66;
+  color: #fff;
+}
+.job #header .fff {
+  display: inline-block;
+  font-size: 4rem;
+  float: left;
+  line-height: 4rem;
+  text-shadow: 2px 1px 1px #000;
+  margin-left: 2rem;
+}
+.job #header .Jtitle {
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 4rem;
+  float: left;
+  margin-left: 5rem;
+}
+.job .mid {
+  flex: 1;
+  display: flex;
+}
+.job .mid .tablist {
+  flex: 1;
+}
+.job .mid .tablist li {
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1rem;
+  color: #a1a1a1;
+  background: #f4f4f4;
+  border-bottom: 1px solid #c5c5c5;
+  border-left: 2px solid #f4f4f4;
+}
+.job .mid .tablist .hover {
+  background: #fff;
+  border-left: 2px solid #5bd385;
+}
+.job .mid .tabox {
+  flex: 4;
+  overflow-y: scroll;
+}
+.job .mid .tabox .jobdatail {
+  display: none;
+}
+.job .mid .tabox .jobdatail li {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f4f4f3;
+}
+.job .mid .tabox .jobdatail li img {
+  flex: 1;
+  vertical-align: middle;
+  width: 25%;
+  height: 5.4rem;
+}
+.job .mid .tabox .jobdatail li dl {
+  flex: 3;
+}
+.job .mid .tabox .jobdatail li dl dt {
+  margin-top: 0.5rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.job .mid .tabox .jobdatail li dl .short {
+  color: #707070;
+  font-size: 1em;
+}
+.job .mid .tabox .jobdatail li dl .inf {
+  color: #dadada;
+  font-size: 0.8rem;
+}
+.job .mid .tabox .jobdatail li dl .inf .fon1 {
+  font-size: .5rem;
+  margin-right: .5rem;
+}
+.job .mid .tabox .jobdatail li dl .inf span {
+  margin-right: 2rem;
+}
+.job .mid .tabox .jobdatail li dl .inf .time {
+  float: right;
+}
+.job .mid .tabox .active {
+  display: block;
+}
