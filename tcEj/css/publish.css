@@ -4,10 +4,17 @@ html {
   width: 100%;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
 #all {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  overflow: hidden;
 }
 header {
   width: 100%;
@@ -15,14 +22,14 @@ header {
   background: #36be66;
   color: #fff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   vertical-align: middle;
   position: relative;
 }
 header p {
   position: absolute;
   top: 50%;
-  margin-top: -1rem;
+  margin-top: -0.7rem;
   left: 0;
   text-align: center;
   width: 100%;
@@ -32,7 +39,6 @@ section {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 .banner img {
   display: block;
@@ -42,18 +48,18 @@ section {
 .content {
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
 }
 .content .icon {
   width: 25%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .content .icon a.img {
   display: block;
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: center;
 }
 .content .icon p.word {
@@ -64,7 +70,7 @@ section {
 footer {
   border-top: 1px #ccc solid;
   box-sizing: border-box;
-  height: 5.5rem;
+  height: 4.5rem;
 }
 footer .paging {
   padding: 0;
