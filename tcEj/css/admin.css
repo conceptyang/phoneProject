@@ -3,6 +3,11 @@ html {
   width: 100%;
   height: 100%;
   font-size: 62.5%;
+
+}
+#admin-all{
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -10,11 +15,12 @@ html {
   width: 100%;
   height: 4rem;
   background: #36BE66;
-}
-.header h3 {
-  font-size: 2rem;
   text-align: center;
-  line-height: 5.5rem;
+  line-height: 4rem;
+}
+.header span {
+  font-size: 2rem;
+
 }
 .section {
   width: 100%;
@@ -39,6 +45,17 @@ html {
   height: 2.6rem;
   border-radius: 0.4rem;
   margin-left: 0.2rem;
+}
+.section .user-btn{
+  display:none;
+  text-align: center;
+}
+.section .user-btn #user-name{
+  font-size:1.5rem;
+}
+.section .user-btn #logout{
+  font-size:1rem;
+  color:#ddd;
 }
 .footer {
   width: 100%;
