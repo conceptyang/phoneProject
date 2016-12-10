@@ -4,8 +4,8 @@
             "target":"家教机构",
             "joblist":[
                 {
-                    "title":"深加速IT职业培训"，
-                    "src":"img/job1",
+                    "title":"深加速IT职业培训",
+                    "src":"img/job1.gif",
                     "id":"001",
                     "content":"深圳最有实力和影响力的培训.....",
                     "collnum":"24",
@@ -13,8 +13,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"倾尽教育"，
-                    "src":"img/job2",
+                    "title":"倾尽教育",
+                    "src":"img/job2.gif",
                     "id":"002",
                     "content":"倾尽教育是深圳大学毕业生.....",
                     "collnum":"24",
@@ -22,17 +22,17 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳梦想圆教育"，
-                    "src":"img/job3",
+                    "title":"深圳梦想圆教育",
+                    "src":"img/job3.gif",
                     "id":"003",
-                    "content":"考高分上名校，小初高名师.....",
+                    "content":"考高分上名校,小初高名师.....",
                     "collnum":"29",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"华蒙教育"，
-                    "src":"img/job4",
+                    "title":"华蒙教育",
+                    "src":"img/job4.gif",
                     "id":"004",
                     "content":"专业教师全面测试学生个性.....",
                     "collnum":"22",
@@ -40,8 +40,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳材质培训中心"，
-                    "src":"img/job5",
+                    "title":"深圳材质培训中心",
+                    "src":"img/job5.gif",
                     "id":"005",
                     "content":"名师教学、模拟试题、专业....",
                     "collnum":"27",
@@ -49,17 +49,17 @@
                     "num":"0"
                 },
                 {
-                    "title":"曹老师"，
-                    "src":"img/job6",
+                    "title":"曹老师",
+                    "src":"img/job6.gif",
                     "id":"006",
-                    "content":"不怕成绩差，就怕你不学..",
+                    "content":"不怕成绩差,就怕你不学..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨教育培训机构"，
-                    "src":"img/job8",
+                    "title":"启晨教育培训机构",
+                    "src":"img/job8.gif",
                     "id":"008",
                     "content":"启晨教育培训机构是一个专业....",
                     "collnum":"27",
@@ -67,10 +67,10 @@
                     "num":"0"
                 },
                 {
-                    "title":"喝酒培训机构"，
-                    "src":"img/job7",
+                    "title":"喝酒培训机构",
+                    "src":"img/job7.gif",
                     "id":"007",
-                    "content":"三碗不过岗，叫你在酒场叱咤风云...",
+                    "content":"三碗不过岗,叫你在酒场叱咤风云...",
                     "collnum":"40",
                     "time":"08-31",
                     "num":"0"
@@ -83,8 +83,8 @@
             "target":"职业技能",
             "joblist":[
                 {
-                    "title":"急救护理服务"，
-                    "src":"img/job9",
+                    "title":"急救护理服务",
+                    "src":"img/job9.gif",
                     "id":"009",
                     "content":"深圳最牛掰的救助护理中心.....",
                     "collnum":"34",
@@ -92,8 +92,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"双蛇有限公司"，
-                    "src":"img/job10",
+                    "title":"双蛇有限公司",
+                    "src":"img/job10.gif",
                     "id":"010",
                     "content":"双蛇拐杖祝你行走每一天..",
                     "collnum":"30",
@@ -101,46 +101,46 @@
                     "num":"0"
                 },
                  {
-                    "title":"医院救护站"，
-                    "src":"img/job11",
+                    "title":"医院救护站",
+                    "src":"img/job11.gif",
                     "id":"011",
-                    "content":"红十字会钦点救护站，关爱您的健康..",
+                    "content":"红十字会钦点救护站,关爱您的健康..",
                     "collnum":"19",
                     "time":"09-26",
                     "num":"0"
                 },
                  {
-                    "title":"杨磊开锁"，
-                    "src":"img/job12",
+                    "title":"杨磊开锁",
+                    "src":"img/job12.gif",
                     "id":"012",
-                    "content":"要是没了怎么办，找杨磊开锁啊...",
+                    "content":"要是没了怎么办,找杨磊开锁啊...",
                     "collnum":"22",
                     "time":"08-27",
                     "num":"0"
                 },
                  {
-                    "title":"娜说天气"，
-                    "src":"img/job13",
+                    "title":"娜说天气",
+                    "src":"img/job13.gif",
                     "id":"013",
-                    "content":"娜说，明天要下雨，神一样的预报",
+                    "content":"娜说,明天要下雨,神一样的预报",
                     "collnum":"27",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"璐璐围巾"，
-                    "src":"img/job14",
+                    "title":"璐璐围巾",
+                    "src":"img/job14.gif",
                     "id":"014",
-                    "content":"不怕天气冷，就怕你没璐璐..",
+                    "content":"不怕天气冷,就怕你没璐璐..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"磊哥插排"，
-                    "src":"img/job15",
+                    "title":"磊哥插排",
+                    "src":"img/job15.gif",
                     "id":"015",
-                    "content":"一个安全的插排，然你的生活更加简单...",
+                    "content":"一个安全的插排,然你的生活更加简单...",
                     "collnum":"27",
                     "time":"09-31",
                     "num":"0"
@@ -152,35 +152,35 @@
             "target":"婴幼儿教育",
             "joblist":[
                 {
-                    "title":"深加速医院"，
-                    "src":"img/job16",
+                    "title":"深加速医院",
+                    "src":"img/job16.gif",
                     "id":"016",
-                    "content":"为人民服务，救助您的生命.....",
+                    "content":"为人民服务,救助您的生命.....",
                     "collnum":"24",
                     "time":"08-27",
                     "num":"0"
                 },
                  {
-                    "title":"三圈教育"，
-                    "src":"img/job17",
+                    "title":"三圈教育",
+                    "src":"img/job17.gif",
                     "id":"017",
-                    "content":"一圈一世界，三圈生万物...",
+                    "content":"一圈一世界,三圈生万物...",
                     "collnum":"224",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"DNA研究所"，
-                    "src":"img/job18",
+                    "title":"DNA研究所",
+                    "src":"img/job18.gif",
                     "id":"018",
-                    "content":"你了解你自己吗，DNA带你认识你自己...",
+                    "content":"你了解你自己吗,DNA带你认识你自己...",
                     "collnum":"39",
                     "time":"08-24",
                     "num":"0"
                 },
                  {
-                    "title":"变形"，
-                    "src":"img/job19",
+                    "title":"变形",
+                    "src":"img/job19.gif",
                     "id":"019",
                     "content":"一个细胞的的传奇经历....",
                     "collnum":"22",
@@ -188,26 +188,26 @@
                     "num":"0"
                 },
                  {
-                    "title":"娜娜风扇"，
-                    "src":"img/job20",
+                    "title":"娜娜风扇",
+                    "src":"img/job20.gif",
                     "id":"020",
-                    "content":"炎炎夏日，酷热难耐，那那让你清爽每一天....",
+                    "content":"炎炎夏日,酷热难耐,那那让你清爽每一天....",
                     "collnum":"47",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"磊磊创可贴"，
-                    "src":"img/job21",
+                    "title":"磊磊创可贴",
+                    "src":"img/job21.gif",
                     "id":"021",
-                    "content":"有了磊磊，妈妈再也不阻止我玩刀了..",
+                    "content":"有了磊磊,妈妈再也不阻止我玩刀了..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨急救箱"，
-                    "src":"img/job22",
+                    "title":"启晨急救箱",
+                    "src":"img/job22.gif",
                     "id":"022",
                     "content":"启晨急救开创一个时代的急救...",
                     "collnum":"27",
@@ -221,8 +221,8 @@
             "target":"家教个人",
             "joblist":[
                 {
-                    "title":"深加速IT职业培训"，
-                    "src":"img/job1",
+                    "title":"深加速IT职业培训",
+                    "src":"img/job1.gif",
                     "id":"001",
                     "content":"深圳最有实力和影响力的培训.....",
                     "collnum":"24",
@@ -230,8 +230,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"倾尽教育"，
-                    "src":"img/job2",
+                    "title":"倾尽教育",
+                    "src":"img/job2.gif",
                     "id":"002",
                     "content":"倾尽教育是深圳大学毕业生.....",
                     "collnum":"24",
@@ -239,17 +239,17 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳梦想圆教育"，
-                    "src":"img/job3",
+                    "title":"深圳梦想圆教育",
+                    "src":"img/job3.gif",
                     "id":"003",
-                    "content":"考高分上名校，小初高名师.....",
+                    "content":"考高分上名校,小初高名师.....",
                     "collnum":"29",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"华蒙教育"，
-                    "src":"img/job4",
+                    "title":"华蒙教育",
+                    "src":"img/job4.gif",
                     "id":"004",
                     "content":"专业教师全面测试学生个性.....",
                     "collnum":"22",
@@ -257,8 +257,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳材质培训中心"，
-                    "src":"img/job5",
+                    "title":"深圳材质培训中心",
+                    "src":"img/job5.gif",
                     "id":"005",
                     "content":"名师教学、模拟试题、专业....",
                     "collnum":"27",
@@ -266,17 +266,17 @@
                     "num":"0"
                 },
                 {
-                    "title":"曹老师"，
-                    "src":"img/job6",
+                    "title":"曹老师",
+                    "src":"img/job6.gif",
                     "id":"006",
-                    "content":"不怕成绩差，就怕你不学..",
+                    "content":"不怕成绩差,就怕你不学..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨教育培训机构"，
-                    "src":"img/job7",
+                    "title":"启晨教育培训机构",
+                    "src":"img/job7.gif",
                     "id":"007",
                     "content":"启晨教育培训机构是一个专业....",
                     "collnum":"27",
@@ -290,8 +290,8 @@
             "target":"学历教育",
             "joblist":[
                 {
-                    "title":"急救护理服务"，
-                    "src":"img/job9",
+                    "title":"急救护理服务",
+                    "src":"img/job9.gif",
                     "id":"009",
                     "content":"深圳最牛掰的救助护理中心.....",
                     "collnum":"34",
@@ -299,8 +299,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"双蛇有限公司"，
-                    "src":"img/job10",
+                    "title":"双蛇有限公司",
+                    "src":"img/job10.gif",
                     "id":"010",
                     "content":"双蛇拐杖祝你行走每一天..",
                     "collnum":"30",
@@ -308,46 +308,46 @@
                     "num":"0"
                 },
                  {
-                    "title":"医院救护站"，
-                    "src":"img/job11",
+                    "title":"医院救护站",
+                    "src":"img/job11.gif",
                     "id":"011",
-                    "content":"红十字会钦点救护站，关爱您的健康..",
+                    "content":"红十字会钦点救护站,关爱您的健康..",
                     "collnum":"19",
                     "time":"09-26",
                     "num":"0"
                 },
                  {
-                    "title":"杨磊开锁"，
-                    "src":"img/job12",
+                    "title":"杨磊开锁",
+                    "src":"img/job12.gif",
                     "id":"012",
-                    "content":"要是没了怎么办，找杨磊开锁啊...",
+                    "content":"要是没了怎么办,找杨磊开锁啊...",
                     "collnum":"22",
                     "time":"08-27",
                     "num":"0"
                 },
                  {
-                    "title":"娜说天气"，
-                    "src":"img/job13",
+                    "title":"娜说天气",
+                    "src":"img/job13.gif",
                     "id":"013",
-                    "content":"娜说，明天要下雨，神一样的预报",
+                    "content":"娜说,明天要下雨,神一样的预报",
                     "collnum":"27",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"璐璐围巾"，
-                    "src":"img/job14",
+                    "title":"璐璐围巾",
+                    "src":"img/job14.gif",
                     "id":"014",
-                    "content":"不怕天气冷，就怕你没璐璐..",
+                    "content":"不怕天气冷,就怕你没璐璐..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"磊哥插排"，
-                    "src":"img/job15",
+                    "title":"磊哥插排",
+                    "src":"img/job15.gif",
                     "id":"015",
-                    "content":"一个安全的插排，然你的生活更加简单...",
+                    "content":"一个安全的插排,然你的生活更加简单...",
                     "collnum":"27",
                     "time":"09-31",
                     "num":"0"
@@ -360,35 +360,35 @@
             "target":"外语培训",
            "joblist":[
                 {
-                    "title":"深加速医院"，
-                    "src":"img/job16",
+                    "title":"深加速医院",
+                    "src":"img/job16.gif",
                     "id":"016",
-                    "content":"为人民服务，救助您的生命.....",
+                    "content":"为人民服务,救助您的生命.....",
                     "collnum":"24",
                     "time":"08-27",
                     "num":"0"
                 },
                  {
-                    "title":"三圈教育"，
-                    "src":"img/job17",
+                    "title":"三圈教育",
+                    "src":"img/job17.gif",
                     "id":"017",
-                    "content":"一圈一世界，三圈生万物...",
+                    "content":"一圈一世界,三圈生万物...",
                     "collnum":"224",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"DNA研究所"，
-                    "src":"img/job18",
+                    "title":"DNA研究所",
+                    "src":"img/job18.gif",
                     "id":"018",
-                    "content":"你了解你自己吗，DNA带你认识你自己...",
+                    "content":"你了解你自己吗,DNA带你认识你自己...",
                     "collnum":"39",
                     "time":"08-24",
                     "num":"0"
                 },
                  {
-                    "title":"变形"，
-                    "src":"img/job19",
+                    "title":"变形",
+                    "src":"img/job19.gif",
                     "id":"019",
                     "content":"一个细胞的的传奇经历....",
                     "collnum":"22",
@@ -396,26 +396,26 @@
                     "num":"0"
                 },
                  {
-                    "title":"娜娜风扇"，
-                    "src":"img/job20",
+                    "title":"娜娜风扇",
+                    "src":"img/job20.gif",
                     "id":"020",
-                    "content":"炎炎夏日，酷热难耐，那那让你清爽每一天....",
+                    "content":"炎炎夏日,酷热难耐,那那让你清爽每一天....",
                     "collnum":"47",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"磊磊创可贴"，
-                    "src":"img/job21",
+                    "title":"磊磊创可贴",
+                    "src":"img/job21.gif",
                     "id":"021",
-                    "content":"有了磊磊，妈妈再也不阻止我玩刀了..",
+                    "content":"有了磊磊,妈妈再也不阻止我玩刀了..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨急救箱"，
-                    "src":"img/job22",
+                    "title":"启晨急救箱",
+                    "src":"img/job22.gif",
                     "id":"022",
                     "content":"启晨急救开创一个时代的急救...",
                     "collnum":"27",
@@ -430,8 +430,8 @@
             "target":"艺术培训",
             "joblist":[
                 {
-                    "title":"深加速IT职业培训"，
-                    "src":"img/job1",
+                    "title":"深加速IT职业培训",
+                    "src":"img/job1.gif",
                     "id":"001",
                     "content":"深圳最有实力和影响力的培训.....",
                     "collnum":"24",
@@ -439,8 +439,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"倾尽教育"，
-                    "src":"img/job2",
+                    "title":"倾尽教育",
+                    "src":"img/job2.gif",
                     "id":"002",
                     "content":"倾尽教育是深圳大学毕业生.....",
                     "collnum":"24",
@@ -448,17 +448,17 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳梦想圆教育"，
-                    "src":"img/job3",
+                    "title":"深圳梦想圆教育",
+                    "src":"img/job3.gif",
                     "id":"003",
-                    "content":"考高分上名校，小初高名师.....",
+                    "content":"考高分上名校,小初高名师.....",
                     "collnum":"29",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"华蒙教育"，
-                    "src":"img/job4",
+                    "title":"华蒙教育",
+                    "src":"img/job4.gif",
                     "id":"004",
                     "content":"专业教师全面测试学生个性.....",
                     "collnum":"22",
@@ -466,8 +466,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳材质培训中心"，
-                    "src":"img/job5",
+                    "title":"深圳材质培训中心",
+                    "src":"img/job5.gif",
                     "id":"005",
                     "content":"名师教学、模拟试题、专业....",
                     "collnum":"27",
@@ -475,17 +475,17 @@
                     "num":"0"
                 },
                 {
-                    "title":"曹老师"，
-                    "src":"img/job6",
+                    "title":"曹老师",
+                    "src":"img/job6.gif",
                     "id":"006",
-                    "content":"不怕成绩差，就怕你不学..",
+                    "content":"不怕成绩差,就怕你不学..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨教育培训机构"，
-                    "src":"img/job7",
+                    "title":"启晨教育培训机构",
+                    "src":"img/job7.gif",
                     "id":"007",
                     "content":"启晨教育培训机构是一个专业....",
                     "collnum":"27",
@@ -499,8 +499,8 @@
             "target":"电脑培训",
             "joblist":[
                 {
-                    "title":"深加速IT职业培训"，
-                    "src":"img/job1",
+                    "title":"深加速IT职业培训",
+                    "src":"img/job1.gif",
                     "id":"001",
                     "content":"深圳最有实力和影响力的培训.....",
                     "collnum":"24",
@@ -508,8 +508,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"倾尽教育"，
-                    "src":"img/job2",
+                    "title":"倾尽教育",
+                    "src":"img/job2.gif",
                     "id":"002",
                     "content":"倾尽教育是深圳大学毕业生.....",
                     "collnum":"24",
@@ -517,17 +517,17 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳梦想圆教育"，
-                    "src":"img/job3",
+                    "title":"深圳梦想圆教育",
+                    "src":"img/job3.gif",
                     "id":"003",
-                    "content":"考高分上名校，小初高名师.....",
+                    "content":"考高分上名校,小初高名师.....",
                     "collnum":"29",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"华蒙教育"，
-                    "src":"img/job4",
+                    "title":"华蒙教育",
+                    "src":"img/job4.gif",
                     "id":"004",
                     "content":"专业教师全面测试学生个性.....",
                     "collnum":"22",
@@ -535,8 +535,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳材质培训中心"，
-                    "src":"img/job5",
+                    "title":"深圳材质培训中心",
+                    "src":"img/job5.gif",
                     "id":"005",
                     "content":"名师教学、模拟试题、专业....",
                     "collnum":"27",
@@ -544,17 +544,17 @@
                     "num":"0"
                 },
                 {
-                    "title":"曹老师"，
-                    "src":"img/job6",
+                    "title":"曹老师",
+                    "src":"img/job6.gif",
                     "id":"006",
-                    "content":"不怕成绩差，就怕你不学..",
+                    "content":"不怕成绩差,就怕你不学..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨教育培训机构"，
-                    "src":"img/job7",
+                    "title":"启晨教育培训机构",
+                    "src":"img/job7.gif",
                     "id":"007",
                     "content":"启晨教育培训机构是一个专业....",
                     "collnum":"27",
@@ -568,8 +568,8 @@
             "target":"设计培训",
             "joblist":[
                 {
-                    "title":"深加速IT职业培训"，
-                    "src":"img/job1",
+                    "title":"深加速IT职业培训",
+                    "src":"img/job1.gif",
                     "id":"001",
                     "content":"深圳最有实力和影响力的培训.....",
                     "collnum":"24",
@@ -577,8 +577,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"倾尽教育"，
-                    "src":"img/job2",
+                    "title":"倾尽教育",
+                    "src":"img/job2.gif",
                     "id":"002",
                     "content":"倾尽教育是深圳大学毕业生.....",
                     "collnum":"24",
@@ -586,17 +586,17 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳梦想圆教育"，
-                    "src":"img/job3",
+                    "title":"深圳梦想圆教育",
+                    "src":"img/job3.gif",
                     "id":"003",
-                    "content":"考高分上名校，小初高名师.....",
+                    "content":"考高分上名校,小初高名师.....",
                     "collnum":"29",
                     "time":"08-26",
                     "num":"0"
                 },
                  {
-                    "title":"华蒙教育"，
-                    "src":"img/job4",
+                    "title":"华蒙教育",
+                    "src":"img/job4.gif",
                     "id":"004",
                     "content":"专业教师全面测试学生个性.....",
                     "collnum":"22",
@@ -604,8 +604,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"深圳材质培训中心"，
-                    "src":"img/job5",
+                    "title":"深圳材质培训中心",
+                    "src":"img/job5.gif",
                     "id":"005",
                     "content":"名师教学、模拟试题、专业....",
                     "collnum":"27",
@@ -613,17 +613,17 @@
                     "num":"0"
                 },
                 {
-                    "title":"曹老师"，
-                    "src":"img/job6",
+                    "title":"曹老师",
+                    "src":"img/job6.gif",
                     "id":"006",
-                    "content":"不怕成绩差，就怕你不学..",
+                    "content":"不怕成绩差,就怕你不学..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"启晨教育培训机构"，
-                    "src":"img/job7",
+                    "title":"启晨教育培训机构",
+                    "src":"img/job7.gif",
                     "id":"007",
                     "content":"启晨教育培训机构是一个专业....",
                     "collnum":"27",
@@ -637,8 +637,8 @@
             "target":"体育培训",
             "joblist":[
                 {
-                    "title":"急救护理服务"，
-                    "src":"img/job9",
+                    "title":"急救护理服务",
+                    "src":"img/job9.gif",
                     "id":"009",
                     "content":"深圳最牛掰的救助护理中心.....",
                     "collnum":"34",
@@ -646,8 +646,8 @@
                     "num":"0"
                 },
                  {
-                    "title":"双蛇有限公司"，
-                    "src":"img/job10",
+                    "title":"双蛇有限公司",
+                    "src":"img/job10.gif",
                     "id":"010",
                     "content":"双蛇拐杖祝你行走每一天..",
                     "collnum":"30",
@@ -655,53 +655,51 @@
                     "num":"0"
                 },
                  {
-                    "title":"医院救护站"，
-                    "src":"img/job11",
+                    "title":"医院救护站",
+                    "src":"img/job11.gif",
                     "id":"011",
-                    "content":"红十字会钦点救护站，关爱您的健康..",
+                    "content":"红十字会钦点救护站,关爱您的健康..",
                     "collnum":"19",
                     "time":"09-26",
                     "num":"0"
                 },
                  {
-                    "title":"杨磊开锁"，
-                    "src":"img/job12",
+                    "title":"杨磊开锁",
+                    "src":"img/job12.gif",
                     "id":"012",
-                    "content":"要是没了怎么办，找杨磊开锁啊...",
+                    "content":"要是没了怎么办,找杨磊开锁啊...",
                     "collnum":"22",
                     "time":"08-27",
                     "num":"0"
                 },
                  {
-                    "title":"娜说天气"，
-                    "src":"img/job13",
+                    "title":"娜说天气",
+                    "src":"img/job13.gif",
                     "id":"013",
-                    "content":"娜说，明天要下雨，神一样的预报",
+                    "content":"娜说,明天要下雨,神一样的预报",
                     "collnum":"27",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"璐璐围巾"，
-                    "src":"img/job14",
+                    "title":"璐璐围巾",
+                    "src":"img/job14.gif",
                     "id":"014",
-                    "content":"不怕天气冷，就怕你没璐璐..",
+                    "content":"不怕天气冷,就怕你没璐璐..",
                     "collnum":"30",
                     "time":"08-31",
                     "num":"0"
                 },
                 {
-                    "title":"磊哥插排"，
-                    "src":"img/job15",
+                    "title":"磊哥插排",
+                    "src":"img/job15.gif",
                     "id":"015",
-                    "content":"一个安全的插排，然你的生活更加简单...",
+                    "content":"一个安全的插排,然你的生活更加简单...",
                     "collnum":"27",
                     "time":"09-31",
                     "num":"0"
                 }
             ]
-
-
-        },
+        }
    }
 
