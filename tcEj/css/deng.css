@@ -21,7 +21,8 @@ html {
   width: 100%;
   flex: 2;
   padding: 3rem 0;
-  background: #F0EFED;
+  background: url('../img/bg.jpg') no-repeat center;
+  background-size: cover;
 }
 .section .main {
   width:100%;

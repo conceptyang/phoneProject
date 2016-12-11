@@ -8,12 +8,20 @@ function init(){
         var goodid=(GetQueryString("id"));
         $.get('datils.json',function(data){
             for(var key in data){
+
                 if(key==goodid){
+
                     var obj =data[key];
                      var html = template('add',{obj:obj});
                     $('.datils').html(html);
                      if(localStorage.getItem('id')){
-                        $('.collection').css('color','red')
+                        var value = JSON.parse(localStorage.getItem('id'))
+
+                            for(var i = 0 ;i < value.length ; i++){
+                                if(goodid == value[i]){
+                                     $(".collection").css('color','red')
+                                }
+                         }
                     }
                     collection();
                     back();
@@ -23,8 +31,20 @@ function init(){
         function collection(){
         $('.collection').click(function(){
             if(localStorage.getItem('id')){
-                    localStorage.removeItem("id");
-                    $(this).css('color','black')
+                    var value = JSON.parse(localStorage.getItem('id'))
+                    for(var i = 0 ;i < value.length ; i++){
+                        if(goodid == value[i]){
+                            value.splice(i,1);
+                            var str =JSON.stringify(value);
+                             localStorage.setItem('id',str);
+                             $(this).css('color','black')
+                             return;
+                        }
+                    }
+                    value.push(goodid);
+                    var str =JSON.stringify(value);
+                    localStorage.setItem('id',str);
+                    $(this).css('color','red');
             }else{
                 var value =[];
                 value.push(goodid)
@@ -37,7 +57,7 @@ function init(){
         }
         function back(){
             $('.return').click(function(){
-                window.open('indexwcx.html');
+                window.location="indexwcx.html";
             })
         }
 }

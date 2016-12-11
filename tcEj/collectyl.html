@@ -28,20 +28,22 @@
 
     </footer>
 </div>
-<script type="text/html">
+<script id="hh" type="text/html">
     {{each list as value i}}
-    <div class="cont-col ">
-            <div class="cont-top">
-                <img src="{{value.src}}" alt="">
-                <div class="introduce">
-                      <p class="title">{{value.title}}</p>
-                      <p class="standard"><span class="qing">介绍 :</span> {{value.content}}</p>
-                </div>
+        <div class="cont-col ">
+                <div class="cont-top">
+                    <img src="{{value.src}}" alt="">
+                    <div class="introduce">
+                          <p class="title"><a href="http://localhost:8000/datils.html?id={{value.id}}" style="color:skyblue
+                          ">{{value.title}}</a></p>
+                          <p class="standard"><span class="qing">介绍 :</span> {{value.content}}</p>
+                    </div>
 
-            </div>
-            <div class="cont-bot"><span>[删除]&nbsp;&nbsp;</span>
-            </div>
-    </div>
+                </div>
+                <div class="cont-bot" id="{{value.id}}"><span>[删除]&nbsp;&nbsp;</span>
+                </div>
+        </div>
+
     {{/each}}
 </script>
 <script src="js/jquery-1.11.3.js"></script>

@@ -1,7 +1,7 @@
 $(function(){
     panduan("#phone",/^\d{11}$/);
     panduan("#pwd",/^\w{8,20}$/);
-
+    panduan("#email",/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/);
     function panduan(obj,reg1){
         $(obj).blur(function(){
             var pValue = $(this).val();
@@ -18,24 +18,31 @@ $(function(){
         var miVal1 = $("#pwd").val();
         if(miVal){
             if(miVal==miVal1){
-                console.log(2)
+
+
                 $(this).parent().siblings(".tip").css("display","none")
-                $('#send').click(function(event) {
-                   var user = $("#phone").val();
-                   var pwd = $("#pwd").val();
-                   localStorage.setItem("user",user);
-                   localStorage.setItem("pwd",pwd);
-                   window.location = "deng.html";
-                    });
+
+
             }else{
                 $(this).parent().siblings('.tip').css('display', 'inline-block');
-                return false
+                return false;
             }
         }else{
             $(this).parent().siblings(".tip").css('display', 'none');
         }
     })
-
+    $('#send').click(function() {
+        var email = $("#email").val();
+        if(email != "" && $('.tip').css('display')=='none'){
+           var user = $("#phone").val();
+           var pwd = $("#pwd").val();
+           localStorage.setItem("user",user);
+           localStorage.setItem("pwd",pwd);
+            window.location = "deng.html";
+        }else{
+            alert("Please complete the information!")
+        }
+    })
 
 
 

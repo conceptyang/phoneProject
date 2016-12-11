@@ -23,7 +23,7 @@ function init(){
    });
    $('.jobdatail>li').click(function(){
         var id = $(this).attr('dataid');
-        window.open('datils.html?id='+id);
+        window.location = "datils.html?id="+id;
    })
 });
 
