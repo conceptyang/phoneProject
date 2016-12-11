@@ -32,7 +32,10 @@
     {{each list as value i}}
         <div class="cont-col ">
                 <div class="cont-top">
-                    <img src="{{value.src}}" alt="">
+                    <div class="img" style="background: url('{{value.src}}') no-repeat center; background-size:cover;">
+
+                    </div>
+
                     <div class="introduce">
                           <p class="title"><a href="http://localhost:8000/datils.html?id={{value.id}}" style="color:skyblue
                           ">{{value.title}}</a></p>
